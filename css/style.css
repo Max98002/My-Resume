@@ -28,7 +28,7 @@ body {
 
 .profile-photo {
     height: 340px;
-    background-image: url("/img/Bilanych.Max.png");
+    background-image: url("img/Bilanych.Max.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
