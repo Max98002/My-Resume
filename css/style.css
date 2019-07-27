@@ -343,6 +343,7 @@ body {
 }
 
 .level {
+    cursor: pointer;
     width: 70%;
     height: 8px;
     border: 1px solid rgba(168, 168, 168, 0.44);
@@ -352,25 +353,27 @@ body {
     content: "";
     display: flex;
     align-items: center;
-    width: 20%;
     height: 7.33px;
-    background-color: #898989;
 }
 
 .level-html::before {
     width: 95%;
+    background-color: #898989;
 }
 
 .level-css::before {
     width: 95%;
+    background-color: #898989;
 }
 
 .level-js::before {
     width: 50%;
+    background-color: #898989;
 }
 
 .level-php::before {
     width: 30%;
+    background-color: #898989;
 }
 
 @media (max-width: 960px) {
