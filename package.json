@@ -1,0 +1,27 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "Моє резюме",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp-tinify": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max98002/My-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Max98002/My-Resume/issues"
+  },
+  "homepage": "https://github.com/Max98002/My-Resume#readme"
+}
