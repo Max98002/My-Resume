@@ -168,6 +168,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -467,7 +468,7 @@ body {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     .language {
         flex-direction: column;
     }
@@ -476,5 +477,20 @@ body {
     }
     .heading {
         text-align: center;
+    }
+    .logo-line {
+        width: 30px;
+    }
+    .logo-text {
+        font-size: 14px;
+    }
+    .logo-img {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+    .logo-lines {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
